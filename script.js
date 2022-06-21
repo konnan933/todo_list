@@ -15,5 +15,11 @@ function init() {
 
 function putIn() {
   let txt = ID("szoveg").value;
-  QS(".show").innerHTML += `<div class="todo">${txt}</div>`;
+  //kezelni kell ha üres az input
+  QS(".show").innerHTML += `<div class="todo"><p>${txt}</p>
+     <div class='pipa'>
+        <div class="teteje"></div>
+        <div class="alja"></div>
+    </div>
+  </div>`;
 }
