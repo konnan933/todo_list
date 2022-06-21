@@ -1,0 +1,36 @@
+body {
+  background-color: #2c2727;
+  color: white;
+}
+main {
+  margin: auto;
+  border: 1px solid white;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
+.in {
+  width: 47%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+}
+.in input {
+  width: 60%;
+}
+.show {
+  width: 47%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.show div {
+  width: 90%;
+  border: 1px solid white;
+}
+.beadas {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
